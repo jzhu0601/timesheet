@@ -1,4 +1,4 @@
-package com.pluralsight.service;
+package com.comresource.service;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.pluralsight.model.Goal;
-import com.pluralsight.model.GoalReport;
-import com.pluralsight.repository.GoalRepository;
+import com.comresource.model.Goal;
+import com.comresource.model.GoalReport;
+import com.comresource.repository.GoalRepository;
 
 @Service("goalService")
 public class GoalServiceImpl implements GoalService {

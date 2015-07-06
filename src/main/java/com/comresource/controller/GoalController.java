@@ -1,4 +1,4 @@
-package com.pluralsight.controller;
+package com.comresource.controller;
 
 import java.util.List;
 
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.pluralsight.model.Goal;
-import com.pluralsight.model.GoalReport;
-import com.pluralsight.service.GoalService;
+import com.comresource.model.Goal;
+import com.comresource.model.GoalReport;
+import com.comresource.service.GoalService;
 
 @Controller
 @SessionAttributes("goal")

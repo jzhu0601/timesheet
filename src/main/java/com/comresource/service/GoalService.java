@@ -1,9 +1,9 @@
-package com.pluralsight.service;
+package com.comresource.service;
 
 import java.util.List;
 
-import com.pluralsight.model.Goal;
-import com.pluralsight.model.GoalReport;
+import com.comresource.model.Goal;
+import com.comresource.model.GoalReport;
 
 public interface GoalService {
 

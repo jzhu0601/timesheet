@@ -1,11 +1,11 @@
-package com.pluralsight.repository;
+package com.comresource.repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import org.springframework.stereotype.Repository;
 
-import com.pluralsight.model.Exercise;
+import com.comresource.model.Exercise;
 
 @Repository("exerciseRepository")
 public class ExerciseRepositoryImple implements ExerciseRepository {

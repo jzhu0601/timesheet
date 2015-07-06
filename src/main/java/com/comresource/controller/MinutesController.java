@@ -1,4 +1,4 @@
-package com.pluralsight.controller;
+package com.comresource.controller;
 
 import java.util.List;
 
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.pluralsight.model.Activity;
-import com.pluralsight.model.Exercise;
-import com.pluralsight.model.Goal;
-import com.pluralsight.service.ExerciseService;
+import com.comresource.model.Activity;
+import com.comresource.model.Exercise;
+import com.comresource.model.Goal;
+import com.comresource.service.ExerciseService;
 
 
 @Controller

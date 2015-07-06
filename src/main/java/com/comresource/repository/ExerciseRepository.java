@@ -1,6 +1,6 @@
-package com.pluralsight.repository;
+package com.comresource.repository;
 
-import com.pluralsight.model.Exercise;
+import com.comresource.model.Exercise;
 
 public interface ExerciseRepository {
 	Exercise save(Exercise exercise);

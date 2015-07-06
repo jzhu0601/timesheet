@@ -1,4 +1,4 @@
-package com.pluralsight.repository;
+package com.comresource.repository;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import javax.persistence.TypedQuery;
 
 import org.springframework.stereotype.Repository;
 
-import com.pluralsight.model.Goal;
-import com.pluralsight.model.GoalReport;
+import com.comresource.model.Goal;
+import com.comresource.model.GoalReport;
 
 @Repository("goalRepository")
 public class GoalRepositoryImpl implements GoalRepository {

@@ -1,9 +1,9 @@
-package com.pluralsight.service;
+package com.comresource.service;
 
 import java.util.List;
 
-import com.pluralsight.model.Activity;
-import com.pluralsight.model.Exercise;
+import com.comresource.model.Activity;
+import com.comresource.model.Exercise;
 
 public interface ExerciseService {
 
