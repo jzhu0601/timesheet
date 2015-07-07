@@ -73,7 +73,7 @@
       <div class="navbar-inner">
         <div class="container">
           <a class="brand" href="#">
-            <spring:message code="minutes.exercised"/>
+            <spring:message code="hours.exercised"/>
           </a>
           <ul class="nav">
           </ul>
@@ -83,40 +83,35 @@
     <div class="container">
       <div>
         <h1>
-          <spring:message code="minutes.exercised"/>
+          <spring:message code="hours.exercised"/>
         </h1>
       </div>
-      <a class="btn" href="?language=en">
-        English
-      </a>
-      <a class="btn" href="?language=es">
-        Spanish
-      </a>
+
       <br/>
       <br/>
-      <form:form commandName="exercise">
+      <form:form commandName="workType">
       	<form:errors path="*" cssClass="errorblock" element="div" />
       	<div class="control-group">
           <label for="textinput1">
-            <spring:message code="minutes.text"/>
+            <spring:message code="hours.text"/>
           </label>
-          <form:input path="minutes"/>
-          <form:errors path="minutes" cssClass="error" />
+          <form:input path="hours"/>
+          <form:errors path="hours" cssClass="error" />
         </div>
         
         <div class="control-group">
           <label for="selectinput1">
-            <spring:message code="minutes.activity" />
+            <spring:message code="hours.activity" />
           </label>
           <form:select id="activities" path="activity" />
         </div>
+		<input type="submit" class="btn" value="<spring:message code="hours.button.enter"/>"/>
 		
-		<input type="submit" class="btn" value="<spring:message code="minutes.button.enter"/>"/>
 		
 	</form:form>
       
       <span class="label">
-        <spring:message code="minutes.goal"/> ${goal.minutes}
+      <h1><spring:message code="hours.enteredHours"/> ${workType.hours}</h1>
       </span>
     </div>
 

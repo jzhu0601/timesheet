@@ -3,12 +3,13 @@ package com.comresource.service;
 import java.util.List;
 
 import com.comresource.model.Activity;
-import com.comresource.model.Exercise;
+import com.comresource.model.WorkType;
 
-public interface ExerciseService {
-
+public interface WorkTypeService {
+	
+	
 	List<Activity> findAllActivities();
 
-	Exercise save(Exercise exercise);
+	WorkType save(WorkType workType);
 
 }

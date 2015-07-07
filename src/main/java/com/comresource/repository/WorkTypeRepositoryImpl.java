@@ -5,19 +5,19 @@ import javax.persistence.PersistenceContext;
 
 import org.springframework.stereotype.Repository;
 
-import com.comresource.model.Exercise;
+import com.comresource.model.WorkType;
 
-@Repository("exerciseRepository")
-public class ExerciseRepositoryImple implements ExerciseRepository {
+@Repository("workTypeRepository")
+public class WorkTypeRepositoryImpl implements WorkTypeRepository {
 
 	@PersistenceContext
 	private EntityManager em;
 	
-	public Exercise save(Exercise exercise) {
+	public WorkType save(WorkType workType) {
 		
-		em.persist(exercise);
+		em.persist(workType);
 		em.flush();
-		return null;
+		return workType;
 	}
 
 }

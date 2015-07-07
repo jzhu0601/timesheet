@@ -43,19 +43,14 @@
       <div class="hero-unit">
         <div>
           <h1>
-            Welcome to Fitness Tracker!
+            Welcome to Time Sheet!
           </h1>
           <p>
-            To get started, we need to enter a goal for what we want to exercise for
-            today.
+            To get started, enter time
           </p>
         </div>
-        <a class="btn btn-primary" href="addGoal.html">
-          Add Goal »
-        </a>
-        
-        <a class="btn btn-primary" href="addMinutes.html">
-          Add Exercise Minutes »
+        <a class="btn btn-primary" href="addHours.html">
+          Add Work Hours»
         </a>
       </div>
       <div>
